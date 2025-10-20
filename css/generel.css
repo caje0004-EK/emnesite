@@ -35,20 +35,14 @@ main ul {
 .sektion-lys {
   background-color: #eeeae3;
   box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.3);
-  position: relative;
-  z-index: -1;
 }
 .sektion-blue {
   background-color: #c3d1d1;
   box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.3);
-  position: relative;
-  z-index: -2;
 }
 .sektion-darkblue {
   background-color: #b3c0c0;
   box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.3);
-  position: relative;
-  z-index: -3;
 }
 
 /*** TEXTSTYLES ***/

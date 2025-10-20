@@ -65,13 +65,15 @@
 }
 
 /* tekst på billeder */
-.artikel-tekst {
-  grid-area: 1/1;
-  place-self: center;
-  background-color: #f8f3ec;
-  text-align: center;
-  max-width: 270px;
-  padding: 1em 3em;
+@media (width>=550px) {
+  .artikel-tekst {
+    grid-area: 1/1;
+    place-self: center;
+    background-color: #f8f3ec;
+    text-align: center;
+    max-width: 270px;
+    padding: 1em 3em;
+  }
 }
 .artikel-tekst h3,
 .artikel-tekst p {
@@ -81,6 +83,27 @@
 
 @media (width<=1090px) {
   .artikel-tekst {
-  padding: 0.7em 0.3em;
+    padding: 0.7em 0.3em;
+  }
+}
+
+@media (width<=550px) {
+  .artikel-tekst {
+    place-self: center;
+    text-align: center;
+    padding: 0;
+    padding-bottom: 3em;
+  }
+
+  .artikel-tekst h3,
+  .artikel-tekst p {
+    max-width: 500px;
+  }
+
+  .forside .cta-brun-stor{
+    display: flex;
+    justify-self: center;
+    background-color: #c3d1d1;
+    color: #6f6969;
   }
 }
