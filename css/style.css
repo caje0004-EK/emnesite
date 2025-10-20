@@ -1,8 +1,4 @@
 /* hækleguide */
-.guide-haekling .redskaber {
-  grid-template-columns: 1fr 1fr;
-  column-gap: 3em;
-}
 .redskaber img {
   place-self: center;
 }
@@ -16,9 +12,10 @@
   margin-bottom: 1em;
   margin-top: 0;
 }
-.guide-haekling .grid_1_1 .redskaber {
-  padding: 1em 6em;
-}
+.link-starterkit a {
+    display: flex;
+    justify-content: center;
+  }
 
 @media (width>=900px) {
   .artikler .grid_1_1 {
@@ -103,7 +100,6 @@
     grid-column: 1/-1;
   }
 
-
   /* starterkit side */
   .starterkit-lille div {
     grid-column: 1/2;
@@ -122,9 +118,27 @@
     grid-template-columns: 3fr 2fr;
   }
 
+  .guide-haekling .beskrivelse{
+    margin-top: 2em;
+  }
+  .anvendt h3 {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+  }
+
+  .link-starterkit h3 {
+    margin-bottom: 0.5em;
+    margin-top: 1em;
+  }
+
   .guide-haekling .sektion-blue div {
     place-items: center;
     text-align: center;
+  }
+
+  .guide-haekling .redskaber {
+    display: flex;
+    justify-content: space-between;
   }
 
   /* guides */
