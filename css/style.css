@@ -1,0 +1,128 @@
+/* desktop */
+@media (width>=800px) {
+  /* forside */
+  .artikler .grid_1_1 {
+    grid-template-columns: 5fr 4fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 1em;
+    column-gap: 3em;
+    margin: 1em;
+  }
+  .artikler .haekling {
+    grid-column: 1/2;
+    grid-row: 1/-1;
+  }
+
+  .artikler .redskaber {
+    grid-column: 2/-1;
+  }
+
+  .artikler .garn {
+    grid-column: 2/-1;
+  }
+
+  .forside .sektion-blue p {
+    margin-right: 18em;
+  }
+
+  .starterkits {
+    margin-bottom: 2em;
+    margin-top: 1em;
+  }
+
+  .sektion-blue .grid_1_1 {
+    margin-left: 0.8em;
+    margin-right: 0.8em;
+  }
+
+  /* guideside */
+  .guides .grid_1_1 {
+    grid-template-rows: 1.5fr repeat(2, 1fr) 1.5fr;
+    column-gap: 3em;
+    padding: 0 3em;
+  }
+
+  .guides .haekling {
+    grid-column: 1/-1;
+    grid-row: 1/2;
+    margin-bottom: 2em;
+  }
+
+  .guides .redskaber {
+    grid-row: 2/3;
+  }
+
+  .guides .garn {
+    grid-row: 2/3;
+  }
+
+  .guides .masketyper {
+    grid-row: 3/4;
+  }
+
+  .guides .gaveideer {
+    grid-row: 3/4;
+  }
+
+  .guides .trending {
+    grid-row: -2/-1;
+    grid-column: 1/-1;
+  }
+  .guides h1 {
+    margin: 0.4em;
+  }
+
+  /* starterkit side */
+  .starterkit-lille div {
+    grid-column: 1/2;
+    grid-row: 1/-1;
+  }
+  .starterkit-lille ul,
+  .starterkit-stor ul {
+    margin-bottom: 1.5em;
+  }
+  .starterkitside h3 {
+    margin-top: 0;
+  }
+
+  /* hækleguide */
+  .guide-haekling .grid_1_1 {
+    grid-template-columns: 3fr 2fr;
+  }
+
+  .guide-haekling .redskaber {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3em;
+  }
+
+  .redskaber img {
+    place-self: center;
+  }
+  .redskaber p {
+    place-self: center;
+  }
+
+  .guide-haekling .grid_1_1 .redskaber {
+    padding: 1em 6em;
+  }
+
+  .anvendt {
+    place-items: center;
+  }
+
+  .link-starterkit h3 {
+    margin-bottom: 1em;
+    margin-top: 0;
+  }
+
+  .guide-haekling .sektion-blue div {
+    place-items: center;
+    text-align: center;
+  }
+
+  /* guides */
+  .indledning {
+    margin-bottom: 3em;
+    margin-top: 1.5em;
+  }
+}

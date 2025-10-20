@@ -1,0 +1,112 @@
+/*** FONTE ***/
+@font-face {
+  font-family: "dynapuff";
+  src: url(../fonts/DynaPuff-Regular.ttf);
+}
+@font-face {
+  font-family: "nunito";
+  src: url(../fonts/Nunito-VariableFont_wght.woff2);
+}
+@font-face {
+  font-family: "quicksand";
+  src: url(../fonts/Quicksand-VariableFont_wght.woff2);
+}
+
+/*** SIDEOPSTILLING ***/
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f8f3ec;
+  overflow-x: hidden;
+}
+section {
+  padding: 2em 2em;
+}
+article {
+  padding: 1em 0;
+}
+main ul {
+  padding: 1.3em;
+}
+
+/* sektioner */
+.sektion-lys {
+  background-color: #eeeae3;
+  box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.3);
+  position: relative;
+  z-index: -1;
+}
+.sektion-blue {
+  background-color: #c3d1d1;
+  box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.3);
+  position: relative;
+  z-index: -2;
+}
+.sektion-darkblue {
+  background-color: #b3c0c0;
+  box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.3);
+  position: relative;
+  z-index: -3;
+}
+
+/*** TEXTSTYLES ***/
+h1 {
+  font-family: "dynapuff";
+  color: #7f675e;
+  font-size: clamp(2.25rem, 10vw, 5rem);
+}
+
+h2 {
+  font-family: "quicksand";
+  color: #7f675e;
+  font-size: clamp(2rem, 10vw, 3rem);
+  margin-bottom: 0.5em;
+  font-weight: 560;
+}
+
+h3 {
+  font-family: "nunito";
+  color: #6f6969;
+  font-size: clamp(1.25rem, 10vw, 1.5rem);
+  line-height: 150%;
+  margin-top: 1em;
+}
+
+p,
+li,
+a {
+  font-family: "nunito";
+  color: #6f6969;
+  font-size: clamp(0.812rem, 10vw, 1.125rem);
+  line-height: 150%;
+}
+
+p {
+  margin: 0.5em 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*** BILLEDER ***/
+img {
+  max-width: 100%;
+  display: block;
+}
+
+@media (width>=800px) {
+  /* sideopstilling */
+  section {
+    padding: 2em 4em;
+  }
+}
+
+@media (width<=800px) {
+  /* billeder */
+  img {
+    margin: 1em 0;
+  }
+}

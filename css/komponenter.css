@@ -1,0 +1,80 @@
+/*** CTA'ER ***/
+/* cta brun lille */
+.cta-brun-lille {
+  background-color: #a89f97;
+  color: #f8f3ec;
+  border-radius: 1.5em;
+  font-weight: bold;
+  padding: 0.1em 3em;
+  box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+.cta-brun-lille:hover {
+  background-color: #c3d1d1;
+  color: #6f6969;
+}
+
+/* cta brun stor */
+.cta-brun-stor {
+  background-color: #a89f97;
+  color: #f8f3ec;
+  border-radius: 1.5em;
+  font-weight: bold;
+  padding: 0.8em 2em;
+  box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+.cta-brun-stor:hover {
+  background-color: #c3d1d1;
+  color: #6f6969;
+}
+
+/* cta lys */
+.cta-lys {
+  background-color: #f8f3ec;
+  color: #6f6969;
+  border-radius: 1.5em;
+  font-weight: bold;
+  padding: 0.8em 2em;
+  box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+.cta-lys:hover {
+  background-color: #a89f97;
+  color: #f8f3ec;
+}
+
+/*** ARTIKLER ***/
+.artikel-billede {
+  display: grid;
+  place-self: start;
+}
+.artikel-billede img {
+  grid-area: 1/1;
+  place-self: center;
+}
+
+/* billederammer */
+.border-blue {
+  border: 12px solid;
+  border-color: #c3d1d1;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+.border-brun {
+  border: 12px solid;
+  border-color: #7f675e;
+  place-self: center;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* tekst på billeder */
+.artikel-tekst {
+  grid-area: 1/1;
+  place-self: center;
+  background-color: #f8f3ec;
+  text-align: center;
+  max-width: 270px;
+  padding: 1em 3em;
+}
+.artikel-tekst h3,
+.artikel-tekst p {
+  max-width: 300px;
+  margin-top: 0;
+}
