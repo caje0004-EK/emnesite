@@ -1,3 +1,8 @@
+/* guideside */
+ .guides h1 {
+    margin: 0.4em;
+  }
+
 /* hækleguide */
 .guide-haekling .redskaber {
   grid-template-columns: 1fr 1fr;
@@ -102,9 +107,6 @@
   .guides .trending {
     grid-row: -2/-1;
     grid-column: 1/-1;
-  }
-  .guides h1 {
-    margin: 0.4em;
   }
 
   /* starterkit side */
