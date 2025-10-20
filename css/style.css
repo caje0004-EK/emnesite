@@ -1,55 +1,64 @@
+ /* hækleguide */
  .guide-haekling .redskaber {
     grid-template-columns: 1fr 1fr;
     column-gap: 3em;
   }
-
-  .
-
   .redskaber img {
     place-self: center;
   }
   .redskaber p {
     place-self: center;
   }
-
   .anvendt {
     place-items: center;
   }
-
   .link-starterkit h3 {
     margin-bottom: 1em;
     margin-top: 0;
   }
-
   .guide-haekling .grid_1_1 .redskaber {
     padding: 1em 6em;
   }
 
-/* desktop */
-@media (width>=800px) {
-  /* forside */
-  .artikler .grid_1_1 {
+
+@media (width>=900px) {
+      .artikler .grid_1_1 {
     grid-template-columns: 5fr 4fr;
     grid-template-rows: 1fr 1fr;
     row-gap: 1em;
     column-gap: 3em;
     margin: 1em;
   }
+
   .artikler .haekling {
     grid-column: 1/2;
     grid-row: 1/-1;
   }
 
-  .artikler .redskaber {
+    .artikler .redskaber {
     grid-column: 2/-1;
   }
 
   .artikler .garn {
     grid-column: 2/-1;
   }
+}
+
+@media (width<=900px){
+  .artikler .grid_1_1{
+    display: block;
+  }
+  img {
+    margin: 1em 0;
+  }
+}
+
+/* desktop */
+@media (width>=800px) {
+  /* forside */
 
   .forside .sektion-blue p {
-    margin-right: 18em;
+    margin-right: 13em;
   }
 
   .starterkits {

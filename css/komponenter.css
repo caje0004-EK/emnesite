@@ -78,3 +78,9 @@
   max-width: 300px;
   margin-top: 0;
 }
+
+@media (width<=1090px) {
+  .artikel-tekst {
+  padding: 0.7em 0.3em;
+  }
+}
