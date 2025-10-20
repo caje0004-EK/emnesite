@@ -16,6 +16,23 @@ footer {
   box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.3);
 }
 
+/* burgermenu */
+.burger {
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+  display: none;
+}
+.burger .line {
+  display: block;
+  width: 100%;
+  height: 3.8px;
+  border-radius: 3px;
+  background-color: #f8f3ec;
+  margin-bottom: 5px;
+  transition: 0.2s linear;
+}
+
 /* billeder */
 header img,
 footer img {
@@ -103,23 +120,6 @@ nav ul {
   }
   .kurv {
     max-width: 50px;
-  }
-
-  /* burgermenu */
-  .burger {
-    width: 30px;
-    height: 20px;
-    cursor: pointer;
-    display: none;
-  }
-  .burger .line {
-    display: block;
-    width: 100%;
-    height: 3.8px;
-    border-radius: 3px;
-    background-color: #f8f3ec;
-    margin-bottom: 5px;
-    transition: 0.2s linear;
   }
 
   /* grids */
